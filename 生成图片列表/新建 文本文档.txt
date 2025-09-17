@@ -1,0 +1,3 @@
+win+R 唤出cmd指向文件夹后运行：
+cd /d D:\ddd\网页测试\html-test\生成图片列表
+node generatePhotoList.js > ../js/config.js
