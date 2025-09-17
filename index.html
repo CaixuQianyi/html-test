@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>作品合集页</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>TEST</h1>
+
+<div class="grid" aria-label="照片瀑布流">
+  <div class="grid-sizer"></div>
+</div>
+
+<!-- 放大查看弹窗 -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="图片查看弹窗">
+  <div id="lightbox-content">
+    <button id="lightbox-prev" aria-label="上一张照片">&lt;</button>
+    <div class="lightbox-img-wrapper">
+      <img id="lightbox-img" src="" alt="">
+      <div id="lightbox-date"></div>
+    </div>
+    <button id="lightbox-next" aria-label="下一张照片">&gt;</button>
+  </div>
+</div>
+
+<!-- 外部库 -->
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+
+<!-- 配置文件 -->
+<script src="js/config.js"></script>
+
+<!-- 主逻辑 -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
